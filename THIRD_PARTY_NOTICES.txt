@@ -1,0 +1,61 @@
+hAcKEd Video Show 1.1.1 — Third-party components
+
+The HVS application name, master logo and developer credits are retained.
+This notice concerns third-party components, not a grant of rights to HVS
+application source code. The application source is not in the public release.
+
+FFmpeg (51c4a23d74, n9.0.2 branch)
+Copyright FFmpeg contributors. LGPL v3 or later.
+https://ffmpeg.org/legal.html
+Built without GPL/nonfree components. Seven separate, replaceable DLLs.
+OpenSSL 3.5.8 (Apache 2.0), dav1d 1.5.4 (BSD-2-Clause), and compiler runtimes
+are included in those DLLs. No external encoding tools are shipped.
+The exact FFmpeg, OpenSSL and dav1d source archives, hashes and build recipe
+are in hAcKEd-Video-Show-v1.1.1-ThirdPartySources.zip distributed alongside
+this release. No source patches were applied. Build configuration and DLL
+hashes accompany the application in NATIVE_MANIFEST.json.
+
+FlyleafLib 3.11.9 and Flyleaf.FFmpeg.Bindings 9.0.2
+Copyright SuRGeoNix. LGPL-3.0-or-later.
+https://github.com/SuRGeoNix/Flyleaf
+https://github.com/SuRGeoNix/Flyleaf.FFmpeg.Generator
+Unmodified corresponding source archives are in ThirdPartySources.zip.
+These libraries remain separate DLLs. They can be replaced with compatible
+modified versions. Debugging modifications to LGPL libraries, including
+reverse engineering for that purpose, is not restricted by this notice.
+License texts: licenses/Flyleaf-LGPL-3.0.txt and licenses/GPL-3.0.txt.
+
+Online resolver (a separate process)
+Python 3.13.15 embedded Windows x64 distribution: Python Software Foundation
+license and bundled third-party notices in Online/Python/LICENSE.txt.
+https://www.python.org/downloads/release/python-31315/
+yt-dlp 2026.08.19 zipimport distribution: Unlicense plus MIT/ISC components.
+https://github.com/yt-dlp/yt-dlp/releases/tag/2026.08.19
+This is NOT the GPL PyInstaller executable. The supplied zip includes the
+upstream yt-dlp-ejs component. Applicable notices are in licenses/.
+QuickJS-NG 0.17.0: MIT. https://github.com/quickjs-ng/quickjs/tree/v0.17.0
+No automatic code downloads, user plugins, browser cookies or browser
+passwords are used. HVS does not provide access to restricted content.
+
+CA certificates: Mozilla trust store, provided via https://curl.se/ca/
+MPL-2.0; see licenses/MPL-2.0.txt and the source-form Online/cacert.pem.
+OpenSSL certificate and hostname verification remain enabled.
+
+GCC runtime exception and MinGW-w64 winpthreads license are in licenses/.
+Compiler runtime components are used under their runtime exceptions/terms.
+
+CommunityToolkit.Mvvm, Microsoft.Extensions.*, Microsoft.Data.Sqlite,
+Serilog, Serilog.Sinks.File, Vortice.*, SharpGen.Runtime and SQLitePCLRaw
+versions/licenses are listed in DEPENDENCIES.md. Available upstream license
+and notice files from the resolved NuGet packages are included in licenses/.
+SQLite core is public domain; its managed packaging has separate terms.
+
+.NET / WPF 10.0.12 Windows x64 self-contained runtime
+Copyright .NET Foundation and contributors. MIT and bundled third-party
+notices: https://github.com/dotnet/runtime and https://github.com/dotnet/wpf
+Runtime-pack license and notice files are included in licenses/.
+
+Redistributors: keep these notices and the license files with the program.
+Provide the matching ThirdPartySources archive beside the installer and
+Portable ZIP and keep its download available. That archive contains ONLY
+third-party library source and build instructions, not HVS application source.
